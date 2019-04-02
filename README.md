@@ -6,3 +6,6 @@ This repository contains my solutions to the [Lessons of Codility](https://app.c
    
 2. Arrays
    - CyclicRotation: Rotate an array to the right by a given number of steps
+
+3. Time Complexity
+   - FrogJmp: Count minimal number of jumps from position X to Y
