@@ -22,7 +22,6 @@ int solution(int N) {
                   start = 1;
                   if(count[num] != 0) num++;
               }
-              
            else
               if(start == 1) count[num]++;
               if(j == 30) count[num] = 0;
@@ -32,7 +31,6 @@ int solution(int N) {
     for(int l = 0; l <16; l++)
        {
            if(count[l] >= max) max = count[l];
-           
        }
        
     return max;
