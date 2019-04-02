@@ -1,6 +1,6 @@
 int solution(int N) {
     
-    // Initialize parameters
+    // Initialize variables
     int k;
     int count[16]; // 32/2 = 16
     int num = 0;
