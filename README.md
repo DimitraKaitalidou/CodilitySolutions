@@ -21,3 +21,4 @@ This repository contains my solutions to the [Lessons of Codility](https://app.c
 
 6. Sorting
    - Distinct: Compute number of distinct values in an array
+   - MaxProductOfThree: Maximize A[P] * A[Q] * A[R] for any triplet (P, Q, R)
