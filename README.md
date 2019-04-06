@@ -14,4 +14,7 @@ This repository contains my solutions to the [Lessons of Codility](https://app.c
 4. Counting Elements
    - FrogRiverOne: Find the earliest time when a frog can jump to the other side of a river
    - MaxCounters: Calculate the values of counters after applying all alternating operations: increase counter by 1; set value of all counters to current maximum
-   - MissingInteger: Find the smallest positive integer that does not occur in a given sequence. 
+   - MissingInteger: Find the smallest positive integer that does not occur in a given sequence
+
+5. Prefix Sums
+   - PassingCars: Count the number of passing cars on the road. 
