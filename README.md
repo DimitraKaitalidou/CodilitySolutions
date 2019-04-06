@@ -20,4 +20,4 @@ This repository contains my solutions to the [Lessons of Codility](https://app.c
    - PassingCars: Count the number of passing cars on the road 
 
 6. Sorting
-   -Distinct: Compute number of distinct values in an array
+   - Distinct: Compute number of distinct values in an array
