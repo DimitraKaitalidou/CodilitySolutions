@@ -1,3 +1,5 @@
+# Copyright 2019, Dimitra S. Kaitalidou, All rights reserved
+
 int comp (const void * a, const void * b) {
    return ( *(int*)a - *(int*)b );
 }
