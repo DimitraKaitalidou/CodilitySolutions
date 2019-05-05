@@ -1,3 +1,5 @@
+# Copyright 2019, Dimitra S. Kaitalidou, All rights reserved
+
 int solution(int N) {
     
     // Initialize variables
