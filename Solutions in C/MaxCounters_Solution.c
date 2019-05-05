@@ -1,3 +1,5 @@
+# Copyright 2019, Dimitra S. Kaitalidou, All rights reserved
+
 struct Results solution(int N, int A[], int M) {
     
     // Initialize variables
