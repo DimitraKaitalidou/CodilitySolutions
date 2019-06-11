@@ -1,4 +1,4 @@
-# Copyright 2019, Dimitra S. Kaitalidou, All rights reserved
+// Copyright 2019, Dimitra S. Kaitalidou, All rights reserved
 
 struct Results solution(int A[], int N, int K) {
     
