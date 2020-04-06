@@ -1,5 +1,5 @@
 # CodilitySolutions
-This repository contains my solutions to the [Lessons of Codility](https://app.codility.com/programmers/lessons/).
+This repository contains my solutions to the [Lessons of Codility](https://app.codility.com/programmers/lessons/). All solutions achieved 100% score in both correctness and performance.
 
 1. Iterations
    - BinaryGap: Find longest sequence of zeros in binary representation of an integer
