@@ -20,6 +20,7 @@ This repository contains my solutions to the [Lessons of Codility](https://app.c
    - PermCheck: Check whether array A is a permutation
 
 5. Prefix Sums
+   - GenomicRangeQuery: Find the minimal nucleotide from a range of sequence DNA
    - PassingCars: Count the number of passing cars on the road 
 
 6. Sorting
