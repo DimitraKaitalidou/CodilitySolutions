@@ -6,7 +6,6 @@ int comp (const void * a, const void * b) {
 
 int solution(int A[], int N) {
     
-    
     if(N < 3) return 0; // No triangle can be formed
     
     // Sort A
