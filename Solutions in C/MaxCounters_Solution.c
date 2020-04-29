@@ -22,7 +22,6 @@ struct Results solution(int N, int A[], int M) {
            else // If A[i] is equal to N + 1, save the current maximum counter value
               {
                   increase_all = max;
-                  
               }
        }
        
