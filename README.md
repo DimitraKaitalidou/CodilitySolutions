@@ -20,9 +20,10 @@ This repository contains my solutions to the [Lessons of Codility](https://app.c
    - PermCheck: Check whether array A is a permutation
 
 5. Prefix Sums
-   - GenomicRangeQuery: Find the minimal nucleotide from a range of sequence DNA
-   - PassingCars: Count the number of passing cars on the road 
    - CountDiv: Compute number of integers divisible by k in range [a..b]
+   - GenomicRangeQuery: Find the minimal nucleotide from a range of sequence DNA
+   - MinAvgTwoSlice: Find the minimal average of any slice containing at least two elements
+   - PassingCars: Count the number of passing cars on the road 
 
 6. Sorting
    - Distinct: Compute number of distinct values in an array
