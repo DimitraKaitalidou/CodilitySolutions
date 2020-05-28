@@ -1,6 +1,6 @@
 // Copyright 2020, Dimitra S. Kaitalidou, All rights reserved
 
-int solution(char *S) {
+int solution(char *S){
 
    // Initialize variables
    int N = strlen(S);
