@@ -1,7 +1,7 @@
 // Copyright 2019, Dimitra S. Kaitalidou, All rights reserved
 
-int solution(int N) {
-    
+int solution(int N){
+
    // Initialize variables
    int k;
    int count[16]; // 32/2 = 16
