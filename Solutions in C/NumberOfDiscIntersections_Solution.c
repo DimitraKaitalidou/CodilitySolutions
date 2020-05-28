@@ -1,10 +1,10 @@
 // Copyright 2020, Dimitra S. Kaitalidou, All rights reserved
 
-int comp (const void * a, const void * b) {
+int comp (const void * a, const void * b){
    return ( *(int*)a - *(int*)b );
 }
 
-int solution(int A[], int N) {
+int solution(int A[], int N){
 
    // Initialize variables
    int *start = (int *)calloc(N, sizeof(int));
@@ -22,11 +22,11 @@ int solution(int A[], int N) {
          start[i] = i - A[i];
          end[i] = i + A[i];
       }
-	  
+
    // Sort start and end
    qsort(start, N, sizeof(int), comp);  
    qsort(end, N, sizeof(int), comp);  
-   
+
    // Start with the leftmost start point. Every next start point means a new active disc, 
    // where a disc is active when we have not encountered its end point yet. The current
    // intersections are equal to the previously calculated intersections plus the previously active 
@@ -46,11 +46,11 @@ int solution(int A[], int N) {
                intersections = intersections + active_disc;
                active_disc++;
                start_point++;
-               
+ 
                if (intersections > 10000000) return -1;
             }
       }
-	  
+  
    // Return result
    free(start);
    free(end);
