@@ -1,6 +1,6 @@
 // Copyright 2020, Dimitra S. Kaitalidou, All rights reserved
 
-int solution(int A[], int N) {
+int solution(int A[], int N){
 
    // Initialize variables
    float sum = A[0] + A[1];
