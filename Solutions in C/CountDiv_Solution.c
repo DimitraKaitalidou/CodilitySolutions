@@ -1,6 +1,6 @@
 // Copyright 2020, Dimitra S. Kaitalidou, All rights reserved
 
-int solution(int A, int B, int K) {
+int solution(int A, int B, int K){
 
    // Initialize variables
    int div_num = 0;
