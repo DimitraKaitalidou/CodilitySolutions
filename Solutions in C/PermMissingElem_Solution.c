@@ -17,6 +17,6 @@ int solution(int A[], int N){
          if(A[i] != A[i + 1] - 1) return A[i] + 1;
       }
  
-   // Check corner case, where N + 1 is missing
+   // Return
    return N + 1;
 }
