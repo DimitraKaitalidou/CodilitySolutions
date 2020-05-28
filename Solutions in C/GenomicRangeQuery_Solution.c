@@ -22,7 +22,7 @@ struct Results solution(char *S, int P[], int Q[], int M) {
                else {S_1[i] = 0; S_2[i] = 0; S_3[i] = 0; S_4[i] = 1;}
             }
          else
-		        {
+            {
                if(S[i] == 'A') {S_1[i] = S_1[i - 1] + 1; S_2[i] = S_2[i - 1]; S_3[i] = S_3[i - 1]; S_4[i] = S_4[i - 1];}
                else if(S[i] == 'C') {S_1[i] = S_1[i - 1]; S_2[i] = S_2[i - 1] + 1; S_3[i] = S_3[i - 1]; S_4[i] = S_4[i - 1];}
                else if(S[i] == 'G') {S_1[i] = S_1[i - 1]; S_2[i] = S_2[i - 1]; S_3[i] = S_3[i - 1] + 1; S_4[i] = S_4[i - 1];}
@@ -40,6 +40,7 @@ struct Results solution(char *S, int P[], int Q[], int M) {
          else A[j] = 4;
       }
    
+   // Return the result
    result.A = A;
    result.M = M;
    return result;
