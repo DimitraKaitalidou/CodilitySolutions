@@ -1,6 +1,6 @@
 // Copyright 2019, Dimitra S. Kaitalidou, All rights reserved
 
-struct Results solution(int A[], int N, int K) {
+struct Results solution(int A[], int N, int K){
 
    // Initialize variables
    int *temp = (int *)malloc(N * sizeof(int));
