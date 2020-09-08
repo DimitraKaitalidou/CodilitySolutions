@@ -33,3 +33,4 @@ This repository contains my solutions to the [Lessons of Codility](https://app.c
 
 7. Stacks and Queues
    - Brackets: Determine whether a given string of parentheses (multiple types) is properly nested
+   - Fish: N voracious fish are moving along a river. Calculate how many fish are alive.
