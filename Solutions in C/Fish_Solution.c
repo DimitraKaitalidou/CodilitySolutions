@@ -11,34 +11,40 @@ int solution(int A[], int B[], int N){
    for(int i = 0; i < N; i++) stack[i] = -1;
 
    // Go through all the fish
-   for(int i = 0; i < N; i++){
-
-      // All upstream fish before the first downstream fish are safe
-      if(B[i] == 0 && top == -1) continue;
-      // Push the downstream fish into the stack
-      else if(B[i] == 1){
-         top++;
-         stack[top] = i;
-         }
-      // The upstream fish after a downstream fish will eat or will be eaten
-      else if(B[i] == 0 && top != -1){
-         while(top > -1){
-            if(A[i] < A[stack[top]]){
-               A[i] = -1;
-               B[i] = -1;
-               livefish--;
-               break;
-               }
-            else{
-               A[stack[top]] = -1;
-               B[stack[top]] = -1;
-               livefish--;
-               top--;
-               }
+   for(int i = 0; i < N; i++)
+      {
+         // All upstream fish before the first downstream fish are safe
+         if(B[i] == 0 && top == -1) continue;
+         // Push the downstream fish into the stack
+         else if(B[i] == 1)
+            {
+               top++;
+               stack[top] = i;
             }
-         }
-   }
+         // The upstream fish after a downstream fish will eat or will be eaten
+         else if(B[i] == 0 && top != -1)
+            {
+               while(top > -1)
+                  {
+                     if(A[i] < A[stack[top]])
+                        {
+                           A[i] = -1;
+                           B[i] = -1;
+                           livefish--;
+                           break;
+                        }
+                     else
+                        {
+                           A[stack[top]] = -1;
+                           B[stack[top]] = -1;
+                           livefish--;
+                           top--;
+                        }
+                  }
+            }
+      }
 
    // Return result
+   free(stack);
    return livefish;
 }
