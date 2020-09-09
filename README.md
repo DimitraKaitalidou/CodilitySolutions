@@ -35,3 +35,4 @@ This repository contains my solutions to the [Lessons of Codility](https://app.c
    - Brackets: Determine whether a given string of parentheses (multiple types) is properly nested
    - Fish: N voracious fish are moving along a river. Calculate how many fish are alive
    - Nesting: Determine whether a given string of parentheses (single type) is properly nested
+   - StoneWall: Cover "Manhattan skyline" using the minimum number of rectangles
